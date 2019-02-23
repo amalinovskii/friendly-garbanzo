@@ -27,7 +27,7 @@ li {
     font-family: 'Roboto Bold', sans-serif;
 }
 
-.menu-backstage {
+.menu-gallery {
     padding-right: 10px;
     padding-left: 10px;
     height: 70vh;
@@ -35,7 +35,7 @@ li {
     background-color: rgba(255, 255, 255, 0.5);
 }
 
-.menu-backstage > ul > li {
+.menu-gallery > ul > li {
     font-size: x-large;
     margin-bottom: 10px;
 }
@@ -52,7 +52,7 @@ li {
 }
 
 .content {
-    margin-top: 10%;
+    margin-top: 5%;
     margin-bottom: 10%;
 }
 
@@ -73,5 +73,9 @@ li {
 
 .contacts {
     margin-top: 5%;
+    margin-left: 10%;
+}
+.eraser-logo {
+    height: 100px;
     margin-left: 10%;
 }
