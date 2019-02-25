@@ -85,7 +85,7 @@ a {
 
 @media screen and (max-width: 600px) {
     .contacts {
-        margin-top: 90vh;
+        margin-top: 80vh;
     }
 
     .contacts small {
