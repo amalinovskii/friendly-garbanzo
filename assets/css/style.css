@@ -95,16 +95,22 @@ a {
     .images {
         z-index: 1;
         margin-top: 100px;
+        margin-left: 0;
         float: left;
         display: block;
     }
 
     .image {
+
+        width: 100vw;
+        height: auto;
         padding-right: 5%;
         padding-left: 5%;
     }
 
     .menu-concerts, .menu-gallery {
+        margin-left: 0;
+        padding-left: 5%;
         width: 100%;
         background-color: white;
     }
