@@ -102,7 +102,9 @@ a {
     }
 
     .image {
-        width: 100vw;
+        padding-left: 2vw;
+        padding-right: 2vw;
+        width: 96vw;
         height: auto;
     }
 
@@ -115,5 +117,13 @@ a {
 
     .sub-menu {
         margin-top: 100px;
+    }
+
+    .image-container {
+        padding-right: 0;
+    }
+
+    .images-sub-menu {
+        margin-top: 230px;
     }
 }
