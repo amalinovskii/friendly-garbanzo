@@ -85,7 +85,7 @@ a {
 
 @media screen and (max-width: 600px) {
     .contacts {
-        margin-top: 100vh;
+        margin-top: 90vh;
     }
 
     .contacts small {
@@ -94,10 +94,14 @@ a {
 
     .images {
         z-index: 1;
-        margin-top: 30%;
-        margin-left: 30%;
+        margin-top: 100px;
         float: left;
-        display: flex;
+        display: block;
+    }
+
+    .image {
+        padding-right: 5%;
+        padding-left: 5%;
     }
 
 }
