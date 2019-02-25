@@ -104,4 +104,9 @@ a {
         padding-left: 5%;
     }
 
+    .menu-concerts, .menu-gallery {
+        width: 100%;
+        background-color: white;
+    }
+
 }
