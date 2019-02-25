@@ -11,6 +11,12 @@
         .images-zines {
             margin-left: 40%;
         }
+
+        @media screen and (max-width: 600px) {
+            .images-zines {
+                margin-left: 0;
+            }
+        }
     </style>
 </head>
 <body>
@@ -18,16 +24,17 @@
     <div class="menu-gallery">
         <h5 style="margin-bottom: 0"><a href="../../index.html">MAIN PAGE</a></h5>
         <h1 style="margin-top: 0">ZINES&MAGS</h1>
-        <ul style="margin-top: 10%; z-index: -1;">
-            <li><a class="active" href="1.html">Berlin Zine THE Passengers</a></li>
-            <li>
-                <small style="margin-left: 20px;"> 12 spreads, inspired by BERLIN</small>
-            </li>
-            <li><a href="2.html">Essentials Zine</a></li>
-            <li><a href="3.html">Secret Moves Zine</a></li>
-        </ul>
     </div>
-    <div class="images images-zines">
+    <ul class="sub-menu">
+        <li><a class="active" href="1.html">Berlin Zine THE Passengers</a></li>
+        <li>
+            <small style="margin-left: 20px;"> 12 spreads, inspired by BERLIN</small>
+        </li>
+        <li><a href="2.html">Essentials Zine</a></li>
+        <li><a href="3.html">Secret Moves Zine</a></li>
+    </ul>
+
+    <div class="images images-zines images-sub-menu">
         <div class="image-container"><img class="image" src="../../assets/images/zines-mags/the-passengers/1.png"></div>
         <div class="image-container"><img class="image" src="../../assets/images/zines-mags/the-passengers/2.png"></div>
         <div class="image-container"><img class="image" src="../../assets/images/zines-mags/the-passengers/3.png"></div>
