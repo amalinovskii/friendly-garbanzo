@@ -2,6 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width">
     <title>ANIMATION</title>
     <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
     <link type="text/css" rel="stylesheet" href="../../assets/css/style.css">
@@ -46,6 +47,35 @@
             margin: 20px;
             float: none;
         }
+
+        @media screen and (max-width: 600px) {
+            .animations {
+                margin: 0;
+                display: block;
+                float: left;
+                grid-template-columns: none;
+
+            }
+
+            .animation {
+                padding-left: 4vw;
+                padding-right: 4vw;
+                width: 92vw;
+                height: auto;
+
+            }
+
+            .video {
+                width: 92vw;
+                height: auto;
+            }
+
+            .videos {
+                margin: 0;
+                width: 100vw;
+            }
+        }
+
     </style>
 </head>
 <body>
