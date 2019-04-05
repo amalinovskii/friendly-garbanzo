@@ -47,16 +47,16 @@ a {
 
 .images {
     z-index: 1;
-    margin-top: 100px;
+    margin-top: 10vh;
     margin-left: 30%;
     float: left;
     display: flex;
-    margin-bottom: 100px;
+    margin-bottom: 10vh;
 }
 
 .image {
     z-index: inherit;
-    height: 80vh;
+    height: 75vh;
 }
 
 .image-container {
@@ -101,7 +101,7 @@ a {
     .image {
         padding-left: 2vw;
         padding-right: 2vw;
-        width: 96vw;
+        width: 90vw;
         height: auto;
     }
 
